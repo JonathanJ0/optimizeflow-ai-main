@@ -1,0 +1,16 @@
+[package]
+name = "YieldOptimizer"
+version = "1.0.0"
+authors = []
+
+[addresses]
+YieldMasterAI = "5a5af365a63d751dd76a2ba2759a2c71d3d07007f47b06e0b78230503102d3dc"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "testnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
